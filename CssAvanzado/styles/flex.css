@@ -1,0 +1,51 @@
+:root
+{
+ --primary:#27374D;
+ --secondary:#526D82;
+ --info:#9DB2BF;
+ --contrast:#DDE6ED;
+}
+
+
+.flex
+{
+        align-items: center;
+        height: 400px;
+        display: flex;
+        /* justify-content: space-evenly; */
+        /* justify-content: center; */
+        /* justify-content: space-around; */
+        justify-content: space-between;
+
+
+         flex-wrap: wrap;
+         flex-direction: column;
+
+
+
+}
+
+
+.flex > div
+{
+    /* height: 50px; */
+    width: 100px;
+    margin: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: var(--info);
+    border: 3px solid var(--contrast);
+
+}
+
+.container
+{
+    background-color: var(--primary);
+    border: 2px solid #DDE6ED;
+}
+
+#d5
+{
+order: -1;
+
+}
