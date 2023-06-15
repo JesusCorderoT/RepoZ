@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: #fefefe;
+    font-size: 1rem;
+    border-radius: 10%;
+    padding: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container
+{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    /* min-height: ; */
+
+
+}
