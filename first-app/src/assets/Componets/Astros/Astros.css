@@ -1,0 +1,35 @@
+.astros--cards
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+
+}
+
+.astro--card
+{
+    margin: 20px;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    width: 200px;
+    max-height: 200px;
+    background-color: #35048d;    
+    border-radius: 10%;
+    margin: 100px 50px 0px 50px;
+}
+
+
+.astro--name
+{
+    font-size: 2rem;
+    
+}
+
+.astro--craft
+{
+    font-size: 1rem;
+    
+}
